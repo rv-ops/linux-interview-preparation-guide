@@ -2,7 +2,7 @@
 
 A practical, interview-focused Linux guide designed for DevOps Engineers, System Administrators, Cloud Engineers, and SRE professionals.
 
-This guide takes you from **Linux fundamentals to advanced concepts**, with a focus on understanding how Linux works, managing servers, automating tasks, and troubleshooting real-world production issues.
+This repository takes you from **Linux fundamentals to advanced concepts**, with a focus on understanding how Linux works, managing servers, automating tasks, and troubleshooting real-world production issues.
 
 It is designed to serve two purposes:
 
@@ -35,7 +35,7 @@ During interviews and real-world operations, engineers often struggle to explain
 - What causes high CPU, memory, or disk usage.
 - Why applications fail due to permissions or networking issues.
 - How to investigate production problems systematically.
-- How Linux supports Docker, Kubernetes and cloud infrastructure.
+- How Linux supports Docker, Kubernetes, and cloud infrastructure.
 
 This guide focuses on developing that understanding.
 
@@ -47,20 +47,22 @@ Instead of simply memorising commands, the goal is to understand **what happens,
 
 The repository is organized into five parts, following a progressive learning path from basic Linux concepts to advanced DevOps practices.
 
+Each chapter is available as an individual PDF, making it easy to read, download, and revise specific topics.
+
 ### Part 1 – Linux Foundations
 
 | No. | Chapter |
 |---|---|
 | 01 | Introduction to Linux |
 | 02 | Working with Linux Files and Directories |
-| 03 | Users, Groups and Permissions |
+| 03 | Linux Users, Groups and Permissions |
 | 04 | Linux Package Management and Software Installation |
 
 ### Part 2 – Linux Administration
 
 | No. | Chapter |
 |---|---|
-| 05 | Process and Service Management |
+| 05 | Linux Process and Service Management |
 | 06 | Linux Storage and Filesystem Management |
 | 07 | Linux Networking |
 | 08 | Linux Boot Process and System Initialization |
@@ -71,7 +73,7 @@ The repository is organized into five parts, following a progressive learning pa
 | No. | Chapter |
 |---|---|
 | 10 | Linux Shell Scripting and Automation |
-| 11 | Text Processing and Command-Line Power Tools |
+| 11 | Linux Text Processing and Command-Line Power Tools |
 | 12 | Linux Logging, Monitoring and Scheduling |
 
 ### Part 4 – Advanced Linux for DevOps
@@ -88,13 +90,13 @@ The repository is organized into five parts, following a progressive learning pa
 |---|---|
 | 16 | Real-World Linux Production Scenarios and Troubleshooting |
 | 17 | Linux in AWS and Cloud Environments |
-| 18 | Linux Interview and Quick Revision |
+| 18 | Linux Interview Preparation and Quick Revision |
 
 ---
 
 ## 🧪 Practical Linux Lab Exercises
 
-**File:** `Linux_Lab_Exercises.pdf`
+**File:** `Lab-Exercises/Linux Lab Exercises Workbook.pdf`
 
 Along with theoretical learning, this repository includes a separate hands-on workbook containing practical Linux exercises.
 
@@ -140,9 +142,11 @@ The objective is to gain practical experience in managing and deploying applicat
 
 ## 📋 Linux Cheatsheets
 
-**Folder:** `Cheatsheets/`
+**File:** `Cheatsheets/Linux Cheatsheets.pdf`
 
-The repository also contains separate quick-reference documents for commonly used Linux commands and concepts.
+The repository also includes one consolidated PDF containing 10 important Linux cheatsheets.
+
+### Topics Covered
 
 | No. | Cheatsheet |
 |---|---|
@@ -157,7 +161,13 @@ The repository also contains separate quick-reference documents for commonly use
 | 09 | Linux Troubleshooting Cheatsheet |
 | 10 | Linux Interview Quick Revision |
 
-These cheatsheets are intended for quick command lookup, daily revision, interview preparation and production troubleshooting.
+These cheatsheets are designed for:
+
+- Quick command lookup.
+- Daily Linux administration reference.
+- Interview preparation.
+- Production troubleshooting.
+- Last-minute technical revision.
 
 ---
 
@@ -199,7 +209,7 @@ The content progresses from basic understanding to advanced practical knowledge 
 - Follow the chapters in order, starting from Part 1.
 - Practice the commands on an Ubuntu or Amazon Linux virtual machine.
 - Try the practical examples instead of only reading the explanations.
-- Complete the corresponding lab exercises.
+- Complete the practical lab exercises.
 - Progress through each part to build your understanding.
 
 **If you are preparing for interviews:**
@@ -208,7 +218,7 @@ The content progresses from basic understanding to advanced practical knowledge 
 - Focus on Chapters 13–17 for advanced DevOps concepts.
 - Use Chapter 18 for interview questions and quick revision.
 - Practice explaining troubleshooting scenarios in your own words.
-- Use the interview cheatsheet for last-minute revision.
+- Use the consolidated cheatsheets for last-minute revision.
 
 **If you are already working as a DevOps Engineer:**
 
@@ -241,6 +251,52 @@ Suggested options:
 - Internet connectivity.
 
 Most examples use standard Linux commands and concepts. Some commands and configuration details may differ between distributions.
+
+---
+
+## 📁 Repository Directory Structure
+
+```text
+linux-for-devops-engineers/
+│
+├── README.md
+│
+├── Chapters/
+│   │
+│   ├── Part-1-Linux-Foundations/
+│   │   ├── 01. Introduction to Linux.pdf
+│   │   ├── 02. Working with Linux Files and Directories.pdf
+│   │   ├── 03. Linux Users, Groups and Permissions.pdf
+│   │   └── 04. Linux Package Management and Software Installation.pdf
+│   │
+│   ├── Part-2-Linux-Administration/
+│   │   ├── 05. Linux Process and Service Management.pdf
+│   │   ├── 06. Linux Storage and Filesystem Management.pdf
+│   │   ├── 07. Linux Networking.pdf
+│   │   ├── 08. Linux Boot Process and System Initialization.pdf
+│   │   └── 09. Linux Security and Hardening.pdf
+│   │
+│   ├── Part-3-Automation-and-Operations/
+│   │   ├── 10. Linux Shell Scripting and Automation.pdf
+│   │   ├── 11. Linux Text Processing and Command-Line Power Tools.pdf
+│   │   └── 12. Linux Logging, Monitoring and Scheduling.pdf
+│   │
+│   ├── Part-4-Advanced-Linux-for-DevOps/
+│   │   ├── 13. Memory Management and Performance Troubleshooting.pdf
+│   │   ├── 14. Linux Internals and Kernel Fundamentals.pdf
+│   │   └── 15. Linux for Docker and Kubernetes.pdf
+│   │
+│   └── Part-5-Real-World-DevOps-Practice/
+│       ├── 16. Real-World Linux Production Scenarios and Troubleshooting.pdf
+│       ├── 17. Linux in AWS and Cloud Environments.pdf
+│       └── 18. Linux Interview Preparation and Quick Revision.pdf
+│
+├── Lab-Exercises/
+│   └── Linux Lab Exercises Workbook.pdf
+│
+└── Cheatsheets/
+    └── Linux Cheatsheets.pdf
+```
 
 ---
 
