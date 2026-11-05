@@ -70,7 +70,7 @@
 
 ✍️ Author
 
-● Author: Ravi Thakor
+● Author: Ravi Tomar
 ● Focus: Linux, DevOps, Cloud Infrastructure
 ● Purpose: Interview preparation and real-world Linux understanding
 ● This guide reflects hands-on learning and practical thinking, not copied documentation.
